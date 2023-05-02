@@ -1,0 +1,10 @@
+Esse é o Script usado para criação da tabela super_herois
+
+CREATE TABLE super_herois (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(50) NOT NULL,
+  poder VARCHAR(50) NOT NULL,
+  liga VARCHAR(50) NOT NULL,
+  ponto_fraco VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
+);
