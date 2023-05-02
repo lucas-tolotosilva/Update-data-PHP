@@ -15,7 +15,7 @@
 			<img src="https://blog.br.playstation.com/tachyon/sites/4/2022/06/c50ed40ccbee94460e55dee40a077efc09474a20.jpg?resize=1088%2C612&crop_strategy=smart"/>
 		</div>
 		
-		<div class="bg-[#773C85] w-full px-4 py-4 w-1/4 text-white h-full flex items-center justify-center">
+		<div class="bg-indigo-500 w-full px-4 py-4 w-1/4 text-white h-full flex items-center justify-center">
 			<form class="w-full" action="cadastraHeroi.php" method="POST">
 				
 				<label for="nome">Nome:</label> <br />

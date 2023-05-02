@@ -1,5 +1,15 @@
 <?php
 
+
+                $sql_select = "SELECT * FROM super_herois";
+                $result = $conn->query($sql_select);
+
+                if ($result->num_rows > 0) {
+
+                    while ($row = $result->fetch_assoc()) {}
+                }
+            ?>
+
 // Conectar-se ao banco de dados MySQL
 $servername = "localhost";
 $username = "root";
