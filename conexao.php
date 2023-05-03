@@ -1,11 +1,11 @@
 <?php
 // Conectar-se ao banco de dados MySQL
-$servername = "localhost";
+$servername = "localhost:3307";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "my_db";
 
-$conn = new mysqli($servername, $username, $password, $dbname); 
+    $conn = new mysqli($servername, $username, $password, $dbname); 
 
     // Verificar se a conexão foi bem-sucedida
     if ($conn->connect_error) {
@@ -36,4 +36,4 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // echo "</form>";
 
 // Encerrar a conexão com o banco de dados
-//$conn->close();
+
